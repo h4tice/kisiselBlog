@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitem</title>
+    <!-- Sosyal Medya ikonları için hazır link kullandım -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Hatice<span>Karaca</span></a>
+            <button onclick="myFunction()" class="buton"><img src="images/sun_moon.png" alt="" height="20px" width="20px"></button>
+        </div>
+     
+    </header>
+
+    <section class="anasayfa" >
+        <div class="anasayfa-text container">
+            <h2 class="a-baslik">Etiketsiz, iddiasız, yargısız<br>
+                Kısık ve buğulu bir sesle; merhaba! :)</h2>
+        </div>
+    </section>
+
+    <section class="hakkimda container">
+        <div class="h-icerik">
+            <h2 class="h-baslik">HAKKIMDA</h2>
+            <p class="h-yazi">
+                Herkese selamlar, ben Hatice.Aslen Erzurumluyum ilkokulu,ortaokulu ve liseyi Erzurumda okudum. Şu an ailem Erzurumda yaşıyor, ben okul için Ankaradayım. Gazi üniversitesi bilgisayar mühendisliği 3.sınıf öğrencisiyim.
+                <br>
+                <br>Çocukluğumdan beri uçaklarla ilgili araştırma yapmaya bayılırım. Aslında asıl hedefimde MSÜ Hava Harp okuluydu :) Sınavda başarılı olmama rağmen bazı sebeplerden dolayı kabul alamamıştım. Gezmeyi, müzik dinlemeyi,kamp
+                yapmayı çok seviyorum. Okul dışında vaktimin çoğu bilgisayar oyunları oynayarak geçiyor :))
+            </p>
+
+        </div>
+        <div class="h-resim">
+            <img src="images/hakkkimda.jpg">
+        </div>
+    </section>
+
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="hepsi">Hepsi</span>
+        <span class="filter-item" data-filter="hayat">Hayat</span>
+        <span class="filter-item" data-filter="siir">Şiir</span>
+        <span class="filter-item" data-filter="muzik">Müzik</span>
+    </div>
+    
+    <div class="post container">
+        <!-- Post 1 -->
+        <div class="postt hayat">
+            <a href="post1.html">
+            <img src="images/kendime.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Hayat</h2>
+            <a href="post1.html" class="p-baslik">Kendime</a>
+            <span class="p-tarih">09 Nisan 2023</span>
+            <p class="p-yazi">Kimseye bir şeyler öğretmek zorunda değilsin, kimseye bir şeyler anlatmak zorunda da değilsin. Hatta ve hatta hiçbir olaya anlam yüklemek zorunda da değilsin.<br<>Sen mutluysan olay bitmiştir!
+                <br>Kimse sana ve senin bilgine muhtaç değil. Kimse senden öğrendikleriyle nirvanaya ulaşmayacak. Kimselere kendini kanıtlamak zorunda da değilsin.<br>Sen mutluysan olay bitmiştir!
+                <br>Varsın, sustuğun için sana câhil desinler, hatta sana ahmak da diyebilirler. Varsın sana ‘o’cu, ‘bu’cu desinler. Varsın, sana en beğendikleri kimlikleri giydirsinler. Herkes kendi seviyesi kadar giydirecektir seni ve sen “desinler”in kölesi olmadığın sürece sorun yok.</p>
+            </a>
+        </div>
+        <!-- Post 2 -->
+        <div class="postt hayat">
+            <a href="post2.html">
+            <img src="images/geceninsesivesessizligi.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Hayat</h2>
+            <a href="post2.html" class="p-baslik">Gecenin Sesi ve Sessizliği</a>
+            <span class="p-tarih">12 Mart 2023</span>
+            <p class="p-yazi">Nedendir bilmem ama geceleri kendimi daha huzurlu hissediyorum. Herkes uykuya dalmış bilmem kaçıncı rüyayı görürken bazı günler anlamsızca birden uyanıyorum. Gün boyunca kendime zaman ayıramıyorum. Kendime zaman ayırmak için en doğru saatleri gece yarısı seçiyorum. Özellikle en üretken olduğum saatlerde bu saatler. Hatta bu yazıyı da bir gece yarısı yazıyorum. Önceleri kendimle yüzleşmek için harcardım bu vakitleri. 
+                Tüm günümü ve geçmişimi sorgulardım. Geleceğimi planladığım da olurdu. Artık öyle yapmıyorum. Sadece sessizliği dinliyorum. Amaçsız, sorgusuz, eleştirisiz, olduğu gibi… Düşünmenin değerini daha doğrusu idrâk etmenin ve bilinçli olmanın yüceliğini işte o zaman anlıyorum.</p>
+            </a>
+        </div>
+        <!-- Post 3 -->
+        <div class="postt siir">
+            <a href="post3.html">
+            <img src="images/galata.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Şiir</h2>
+            <a href="post3.html" class="p-baslik">Gökkuşağına 8. Renk</a>
+            <span class="p-tarih">08 Mart 2023</span>
+            <p class="p-yazi">Yeni bir renksin hayatımda,
+                <br>Yeni bir doğuş.<br>Hangi gökkuşağına koysam seni ki rengini herkes görsün.<br>Seni gören yağmurla güneş aralarında anlaşsın,<br>Yağmurlar hep yağsın.
+                <br>Güneşler hep açsın.<br>Sen hep gökyüzünde otur,<br>Sen hiç solma,<br>Sen hep güzel kal.</p>
+            </a>
+        </div>
+        <!-- Post 4 -->
+        <div class="postt muzik">
+            <a href="post4.html">
+            <img src="images/barismanco.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Müzik</h2>
+            <a href="post4.html" class="p-baslik">Kara Sevda</a>
+            <span class="p-tarih">12 Şubat 2023</span>
+            <p class="p-yazi">"Kara sevda"; Kara sevda, dedikleri daha ne olabilir ki?
+                <br>Kara sevda, kara sevda, seni benden kim ayırabilir ki?<br>"Çocukça bir aşk." deyip de geçme, sakın gülme halime
+                <br>Nasıl olduğunu anlayamadım ama seviyorum seni delicesine</p>
+            </a>
+        </div>
+        <!-- Post 5 -->
+        <div class="postt hayat">
+            <a href="post5.html">
+            <img src="images/ayniyolunyolculari.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Hayat</h2>
+            <a href="post5.html" class="p-baslik">Aynı Yolun Yolcuları</a>
+            <span class="p-tarih">17 Ocak 2023</span>
+            <p class="p-yazi">Ve en sonunda anlıyorsun ki aynı yolda yürüdüğün insanlardan sana fayda var. Aynı dili konuştuğun, aynı hisleri yaşadığın, aynı amacı paylaştığın. Aynı yolu yürümediğin insanlar ile sadece belli bir noktaya kadar geliyorsun. O noktadan bir adım öteye geçmek mümkün olmuyor. Belli bir seviyede iletişim, belli bir seviyede samimiyet ve belli bir seviyede arkadaşlık. 
+                Ama ötesi mutlaka olmuyor. Mutlaka bir süre sonra herkes tekrar kendi yoluna geçiyor.Aynı frekansta olan kişiler çok uzakta olsa bile kalpleri aynı ritimle, aynı heyecanla atıyor. Hatta koca bir güruh, eş zamanlı aynı ruh halini paylaşabiliyor. Zaten gözünden tanıyorsun böyle insanları. Pek konuşmaya da gerek kalmıyor. Haliyle konuşuyor yolun yolcuları. Ne mutlu yolunu bulanlara. Ne mutlu yolunu bulup yolcu olanlara. 
+                İnanın ki bu ikisinden başka zenginlik yok.</p>
+            </a>
+        </div>
+        <!-- Post 6 -->
+        <div class="postt siir">
+            <a href="post6.html">
+            <img src="images/problem.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Şiir</h2>
+            <a href="post6.html" class="p-baslik">Çocuk kalabiliyor muyuz doktor bey?</a>
+            <span class="p-tarih">10 Ocak 2022</span>
+            <p class="p-yazi">Yetişkin olmak zormuş hanım abla.<br>.<br>.<br>En güzeli büyümemekti.<br>Ne acelesi vardı yaşlanmaya?
+                <br>Bin bir türlü sorumluluk.<br> Bin bir türlü tantana.<br>.<br>.<br>Çocuk kalabiliyor muyuz doktor bey?.</p>
+            </a>
+        </div>
+        <!-- Post 7 -->
+        <div class="postt hayat">
+            <a href="post7.html">
+            <img src="images/yol.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Hayat</h2>
+            <a href="post7.html" class="p-baslik">Yol Olmak! Yolda Olmak…</a>
+            <span class="p-tarih">07 Aralık 2022</span>
+            <p class="p-yazi">Yorgunluktan bitap düşmüş başımı kaldırıp şöyle bir yoluma bakayım diyorum. Yolun ne sonu belli oluyor ne de yürüdüğüm yol. İşte o zaman anlıyorum ki daha yürümem gereken çok yol var. Yürürken ilginç olaylar olabiliyor. Bazısı selam vermeden sollayıp geçiyor, bazısı ile sohbet edip beraber yol alıyoruz. 
+                Ama elbet bir gün o da beni terk ediyor. Bazı zamansa o selamsız geçenleri yolda yığılmış, pes etmiş buluyorum. “Nedir senin bu halin?” diye sorduğumda. “Yolun dikeni ayağıma battı.” diyorlar. Bazısı gelip asfaltı, toprağı, dikeni, yolu, yolcuyu ne bulursa öpüp okşuyor. Başta anlam veremiyorum ama gerçek yolcuların onlar olduğunu anlıyorum.</p>
+            </a>
+        </div>
+        <!-- Post 8 -->
+        <div class="postt muzik">
+            <a href="post8.html">
+            <img src="images/cemkaraca.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Müzik</h2>
+            <a href="post8.html" class="p-baslik">Bu son olsun</a>
+            <span class="p-tarih">29 Kasım 2022</span>
+            <p class="p-yazi">Bugün sen çok gençsin, yavrum<br> Hayat ümit, neşe dolu
+                <br>Mutlu günler vadediyor<br>Sana yıllar ömür boyu</p>
+            </a>
+        </div>
+        <!-- Post 9 -->
+        <div class="postt siir">
+            <a href="post9.html">
+            <img src="images/ohbe.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Şiir</h2>
+            <a href="post9.html" class="p-baslik">Oh be!</a>
+            <span class="p-tarih">25 Eylül 2022</span>
+            <p class="p-yazi">Bu kadar tantanaya da ne gerek var cancağızım?<br> Bu kadar velveleye ne gerek var diyorum sana.<br>Ne diye kasıyorum kendimi? <br> Ne diye endişe duyuyorum?
+                <br>Ne diye üzülüyorum?<br>Artık çorba olmuş aklını özgür bırakma vakti gelmedi mi?<br>Haydi söyle bana.<br>
+                <br>Bir zevktir gidiyoruz de geç…<br>Koy ver gitsin de geç…<br>Akıyoruz işte de geç…<br>
+                <br>Yaşıyorum, nefes alıyorum, düşünüyorum…<br>Var mı ötesi!?<br>Var mı dostum söylesene!?
+                <br>Var mı cancağızım hadi konuş!<br>Seni dinliyorum, dilini mi yuttun?</p>
+            </a>
+        </div>  
+          <!-- Post 10 -->
+        <div class="postt muzik">
+            <a href="post10.html">
+            <img src="images/asikveysel.jpg" alt="" class="p-resim">
+            <h2 class="kategori">Müzik</h2>
+            <a href="post10.html" class="p-baslik">Uzun ince bir yoldayım</a>
+            <span class="p-tarih">25 Eylül 2022</span>
+            <p class="p-yazi">Uzun, ince bir yoldayım<br> Gediyorum gündüz gece<br>Bilmiyorum ne hâldeyim
+               <br> Gediyorum gündüz gece<br><br>Uzun, ince bir yoldayım<br>Gediyorum gündüz gece
+               <br>Bilmiyorum ne hâldeyim<br>Gediyorum gündüz gece</p>
+            </a>
+        </div>       
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="sec sosyalmedya">
+                <h2>Sosyal Medya Hesaplarım</h2>
+                <ul class="sci">
+                    <li><a href="https://twitter.com/fbli1isi"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="https://github.com/h4tice"><i class="bx bxl-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/hatice-k-8ab4a0201/"><i class="bx bxl-linkedin"></i></a></li>
+                    <li><a href="https://medium.com/@haticekrc"><i class="bx bxl-medium"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec iletisim">
+                <h2>İletişim</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Çankaya/Ankara</span>
+                    </li>
+                    <br>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:haticekrc772@gmail.com">haticekrc772@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

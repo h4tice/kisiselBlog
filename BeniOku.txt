@@ -1,0 +1,24 @@
+HATİCE KARACA - 201816056 - WEB PROGRAMLAMA VİZE ÖDEVİ
+
+Siteyi kendimi tanıttığım ve hayat yazıları,şiir ve müzik sözlerinden kesitler paylaşımları yaptığım basit bir blog sayfası 
+şeklinde tasarladım. (Tabi ödev olduğu için paylaşım yaptığım yazıları hazır aldım internetten.)
+İçeriklere tıklandığında içerik detayları görülebilmektedir.
+Post içerikleri için ana sayfada kullandığım index.hmtl sayfasının özelliklerini kullandım. Sadece değişmesi gereken yerleri değiştirerek post içeriği yazdım.
+Geçen yaz front-end üzerine staj yaptığım için html-css de çoğu şeye hakimim.
+
+3 yer için Js kodları kullandım. ilki nav kısmının sayfada aşağı ince görünümü ve rengi için.
+ikincisi hayat,şiir ve müzik kategorileri arasındaki geçişler için.Burada JQueryden de faydalandım. ( Geçiş kısmı için tabiki internetteki örneklerden 
+yardım aldım.)
+üçüncüsü ise karanlık-aydınlık mod geçişi için. (post kısımlarına eklemedim çünkü zaten resimlerin arka planları da siyah olduğu için gerek duymadım karanlık mod eklemeye.) 
+Genel olarak projenin görünümüne tarayıcı üzerinden bakıp css kodlarını F12 tuşuna basınca açılan incele kısmından
+göze hitap edecek şekilde ayarlayıp daha sonrasında VSCode üzerine kopyaladım.
+Projede font için ve sosyal medya ikonları için hazır linklerden faydalandım.
+
+footer kısmını https://onaircode.com/html-css-footer-design-examples/ ve https://mdbootstrap.com/docs/standard/navigation/footer/#
+linklerindeki örneklere bakarak yapmaya çalıştım. Çok güzel örnekler vardı bu sitede ama direkt alıp onları kullanmak istemedim çünkü genelde çok detaylıydı benim sayfam kişisel 
+blog tarzı olduğu için o kadar detay bilgiye(e mail gönderme, hızlı linkler vs) gerek olmadığını düşündüm. O yüzden de o örneklere bakarak
+daha basit halini yaptım.
+
+
+
+  
